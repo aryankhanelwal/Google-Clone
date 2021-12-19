@@ -1,0 +1,120 @@
+body {margin:0;}
+
+.right_header{
+  text-align: right;
+  padding: 15px 30px;
+}
+.right_header a{
+  margin: 10px;
+  font-size: 15px;
+  text-decoration: none;
+  color: Black;
+}
+
+.right_header material-icons{
+  border: 10px hidden;
+  font-size: 48px;
+  margin-top: 20px
+  padding: 30px 30px 30px 30px;
+
+}
+.right_header .right_apps{
+  margin-right:  20px;
+
+}
+
+.center {
+  display: block;
+  object-fit: contain;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  padding:6%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+.search{
+  border-radius: 20px;
+
+  padding: 8px;
+  width: 500px;
+  border-color: inherit;
+
+}
+.btn {
+
+  justify-content: center;
+  display: flex;
+}
+.btn button{
+  margin: 5px;
+  padding: 10px 15px;
+  background: #f8f8f8;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+
+.btn_Lucky:hover {
+  background: #b9dff7;
+  text-decoration: none;
+}
+.btn_google:hover {
+  background: #b9dff7;
+  text-decoration: none;
+}
+
+.material-icons{
+  display: block;
+}
+
+.box{
+  display: flex;
+  align-items: center;
+  border: 1px solid lightgray;
+  height: 30px;
+  padding: 10px 20px;
+  border-radius: 999px;
+  width: 75vw;
+  margin: 0 auto;
+  margin-top: 0px;
+  max-width: 560px;
+}
+.box input{
+  flex: 1;
+  padding: 10px 20px ;
+  border: none;
+  outline: none;
+}
+.footer {
+  position: absolute;
+       bottom: 0;
+       left: 0;
+       width: 100%;
+       background-color: #ede7e6;
+
+}
+.footer a{
+  text-decoration: none;
+  color: #70757a;
+    padding-right:  20px;
+}
+.first{
+  padding: 10px
+}
+
+.second{
+  display: flex;
+  padding: 10px;
+  color: #70757a;
+
+}
+
+.second_right {
+text-align: center;
+margin-left: 750px;
+}
+a:hover{
+  text-decoration: underline;
+}
